@@ -1,29 +1,46 @@
-# Python To-Do List Mini Project
+PYTHON TO-DO LIST - WEBSITE VERSION
+======================================
 
-## Requirements
-- Python 3.10 or newer recommended
-- No external Python packages required
+Requirements:
+- Python 3.10+ recommended
+- VS Code recommended
 
-## Run on Windows PowerShell
+INSTALLATION
+------------
 
 1. Open this folder in VS Code.
-2. Create a virtual environment:
+
+2. Open Terminal.
+
+3. Create a virtual environment:
 
    python -m venv venv
 
-3. Activate it:
+4. Activate it on Windows PowerShell:
 
    .\venv\Scripts\Activate.ps1
 
-4. Run the project:
+5. Install Flask:
 
-   python todo.py
+   pip install -r requirements.txt
 
-## Features
+6. Start the website:
+
+   python app.py
+
+7. Open Chrome/Edge and visit:
+
+   http://127.0.0.1:5000
+
+FEATURES
+--------
 - Add tasks
 - View tasks
-- Mark tasks as completed
+- Complete/undo tasks
 - Delete tasks
-- Exit the application
+- Responsive website design
 
-Note: This beginner version stores tasks only while the program is running.
+NOTE
+----
+Tasks are stored in memory while the Flask program is running.
+They will reset when the application is stopped.
